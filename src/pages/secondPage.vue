@@ -8,5 +8,8 @@
 <script>
 export default {
   name: 'secondPage',
+  mounted() {
+    document.title = "second page"
+  }
 }
 </script>
